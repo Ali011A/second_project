@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Nunito Sans", sans-serif;
+}
+.clear {
+  clear: both;
+}
+#home {
+  background-image: url("../images/header.png");
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+}
+#home .navbar {
+  background-color: rgba(0, 0, 0, 0.541);
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+}
+#home .navbar .nav-logo {
+  float: left;
+}
+
+#home .navbar .nav-logo img {
+  width: 70px;
+}
+#home .navbar .nav-link {
+  float: right;
+}
+
+#home .navbar .nav-link li {
+  display: inline-block;
+  padding: 10px 15px;
+}
+
+#home .navbar .nav-link a {
+  color: white;
+}
+#home .caption {
+  color: aliceblue;
+  padding-top: 80px;
+  text-align: center;
+}
+h1 {
+  font-size: 80px;
+  padding-block: 20px;
+}
+
+#home .btn1,
+#home .btn2 {
+  padding: 15px 16px;
+  font-weight: 400px;
+  border-radius: 100px;
+  border: 1px solid rgb(255, 255, 255);
+}
+#home .btn1 {
+  background-color: rgb(247, 166, 157);
+}
+
+#home .btn2 {
+  background-color: rgb(224, 224, 255);
+}
+#home .caption p {
+  margin-bottom: 15px;
+}
+
+#about {
+  padding: 50px 80px;
+}
+#about .about-img {
+  width: 50%;
+  float: left;
+}
+#about .about-img img {
+  width: 100%;
+  border-radius: 20px;
+}
+#about .about-info {
+  width: 50%;
+  float: left;
+  padding: 18px;
+}
+
+#about .about-info h2 {
+  padding-left: 5px;
+  font-size: 30px;
+}
+#about .about-info h3 {
+  padding-block: 30px;
+}
+#about .about-info p {
+  padding: 20px 0;
+}
+#about .about-info button {
+  padding: 20px;
+  background-color: transparent;
+  border: 1px solid black;
+}
+#overlay {
+  background-image: url("../images//blog-3.jpg");
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  height: 500px;
+  /* transition-property: background-image;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+    transition-delay: 1s;  */
+}
+
+/* #overlay:hover{
+   
+} */
+#blog {
+  background-color: rgb(247, 241, 253);
+  float: left;
+  padding: 50px 80px;
+  text-align: center;
+}
+#blog h2 {
+  text-align: center;
+  padding-bottom: 25px;
+}
+#blog .blog-item {
+  width: 33.333333%;
+  float: left;
+}
+
+#blog .blog-item img {
+  width: 90%;
+  border-radius: 20px;
+}
+
+#blog .blog-item p {
+  padding: 15x 15px;
+}
